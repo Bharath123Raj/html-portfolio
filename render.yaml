@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: bharath-raj-ai-portfolio
+    runtime: static
+    buildCommand: echo ready
+    staticPublishPath: .
+    autoDeployTrigger: commit
